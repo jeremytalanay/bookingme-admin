@@ -1,0 +1,33 @@
+.calendar table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.calendar th,
+.calendar td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.calendar thead {
+  font-weight: bold;
+}
+
+.calendar tr {
+  height: 50px;
+}
+
+.calendar button {
+  margin: 10px 20px 10px 0;
+}
+
+.calendar button:hover {
+  cursor: pointer;
+  background-color: #005fa3;
+}
+
+.calendar h2 {
+  text-align: center;
+  margin: 20px 0;
+}

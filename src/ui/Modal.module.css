@@ -1,0 +1,39 @@
+.modal{
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  z-index: 999999;
+  background-color: rgba(0,0,0,0.8);
+}
+.modal__content{
+  position: relative;
+  z-index: 9999999;
+  max-width: 800px;
+  margin: 60px auto;
+  min-height: 200px;
+  background-color: #fff;
+  padding: 15px;
+}
+.close{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.close button {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 10px;
+  border: none;
+  background-color: transparent;
+}
+.close button:hover{
+  color: var(--danger);
+}

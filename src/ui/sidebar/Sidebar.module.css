@@ -1,0 +1,90 @@
+.sidebar{
+  height: 100vh;
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  width: 100%;
+  padding: 2px 0 0 0;
+  overflow-y: auto;
+}
+.sidebar-wrap{
+  padding: 0 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* .sidebar .logo{
+  border-bottom: 1px solid #555;
+} */
+.sidebar .logo::after{
+  content: " ";
+  display: block;
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+.sidebar .logo h1{
+  font-size: 16px;
+  color: var(--primary);
+  text-align: center;
+  padding: 7px 0 9px 0;
+}
+.sidebar .logo a{
+  text-decoration: none;
+}
+.sidebar-head h2{
+  font-size: 14px;
+  text-align: center;
+  font-weight: bolder;
+  opacity: 0.5;
+}
+.sidebar hr{
+  margin-top: 30px;
+}
+.sidebar a{
+  color: #fff;
+}
+.sidebar a.active{
+  color: var(--primary);
+}
+.sidebar .menu{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.sidebar .menu > li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.sidebar .menu > li span.label,
+.sidebar .menu > li a{
+  text-decoration: none;
+  display: block;
+  padding: 10px 5px;
+  margin: 0;
+}
+.sidebar .menu > li span.label:hover,
+.sidebar .menu > li a:hover{
+  color: var(--primary);
+}
+.sidebar .menu ul{
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+.sidebar .menu ul > li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar .menu ul > li,
+.sidebar .menu ul > li a{
+  font-size: 12px;
+}
+.sidebar .menu ul > li a{
+  display: block;
+  padding: 7px 5px;
+}

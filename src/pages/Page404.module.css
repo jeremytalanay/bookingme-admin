@@ -1,0 +1,17 @@
+.page-404{
+  text-align: center;
+}
+.page-404 h1 {
+  font-size: 36px;
+  margin-top: 80px;
+}
+.page-404 p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.page-404 a {
+  text-decoration: none;
+}
+.page-404 a:hover {
+  text-decoration: underline;
+}

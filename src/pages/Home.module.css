@@ -1,0 +1,29 @@
+.home .home__grid{
+  display: flex;
+  flex-wrap: wrap;
+}
+.home .home__grid > div{
+  flex: 1 0 50%;
+}
+.home .home__grid .card{
+  margin: 10px;
+}
+.card__count,
+.card__label{
+  display: block;
+  font-weight: bolder;
+}
+.card__count{
+  font-size: 58px;
+  line-height: 1;
+}
+.card__label{
+  font-size: 16px;
+}
+.card a{
+  color: #fff;
+  text-decoration: none;
+}
+.card a:hover{
+  color: #555;
+}
